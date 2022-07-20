@@ -11,14 +11,78 @@
             height: 500px;
             width: 80%;
             margin:auto;
+            display: flex;
         }
+        #sign{
+            border: 1px solid rgb(85, 67, 67);
+            height: 100%;
+            width: 50%;
         
+        }
+        #pic{
+            border: 1px solid rgb(85, 67, 67);
+            height: 100%;
+            width: 50%;
+        
+        }
+        form{
+            display: grid;
+            grid-template-rows: repeat(5,40px);
+            grid-template-columns: repeat(1,300px);
+            grid-gap: 2px;
+            padding-left: 80px;
+            margin-top: -30px;
+           
+        }
+        p{
+            margin-top: -1000px;
+
+        }
+        input{
+            border-radius: 10px;
+            padding: 7px;
+        }
+        .inputlog{
+            background-color: blue;
+            color: white;
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            margin-left: 30%;
+        }
     </style>
 </head>
 <body>
     <div id="main">
-        <div id="sign"></div>
+        <div id="sign">
+            <img src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+
+            <h1>Creat your account</h1>
+            <form>
+               
+                <h4>Name</h4>
+                <input id="user"  type="text" placeholder=" Join Smith"/>
+                <h4>Email</h4>
+                <input id="email" type="text" placeholder="joinsmith@mail.com"/>
+                <h4>Password</h4>
+                <input id="pass"  type="password" placeholder="Enter Your Password"/>
+                <input type="checkbox" > <p>I accept</p>
+                
+                
+                <input class="inputlog" type="submit" value="Sign Up"/>
+                <h3>---------------------Or-----------------------</h3>
+                <input class="" type="text" placeholder="Sign in" onclick="window.location.href='login.html'"/>
+            </form>
+        </div>
         <div id="pic"></div>
+    </div>
+
+   
     </div>
 </body>
 </html>
+<script>
+
+</script>
