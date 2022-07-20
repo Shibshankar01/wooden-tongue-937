@@ -1,5 +1,3 @@
-@import url("../font/font.css");
-
 #how{
     height: 376px;
     width: 100%;
@@ -54,7 +52,7 @@
     border-radius: 10px;
 }
 #guide{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: auto;
     width: 100%;
     display: grid;
@@ -64,7 +62,7 @@
 #guide>div{
     height: 200px;
     width: 380px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
 }
 #guide1 h2{
@@ -79,8 +77,18 @@
 #guide div p{
     font-size: 18px;
     margin-left: 50px;
+    margin-top: -10px;
 }
 .icon{
     display: flex;
     gap: 20px;
+    line-height: 1.5;
+}
+#bottomLine{
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(191, 190, 190);
+}
+.guideLine{
+    width: 400px;
+    border-bottom: 1px solid rgb(191, 190, 190);
 }
