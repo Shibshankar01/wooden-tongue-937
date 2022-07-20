@@ -1,0 +1,94 @@
+#how{
+    height: 376px;
+    width: 100%;
+    background-color: #fff2cc;
+    text-align: center;
+}
+#how h1{
+    font-size: 65px;
+    padding-top: 140px;
+    margin: 0px 0px 24px;
+}
+#how input{
+    height:45px ;
+    width: 700px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid #a1a7b2;
+}
+#quick div{
+    height: 180px;
+    width: auto;
+    /* background-color: aquamarine; */
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+#quick1 h2{
+    font-size: 36px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#quick{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* border: 1px solid red; */
+    height: 350px;
+    width: 100%;
+    margin: auto;
+    
+}
+#quick1 p{
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    color: #3070f0;
+    margin-top: -30px;
+}
+#quick img{
+    border-radius: 10px;
+}
+#guide{
+    /* border: 1px solid red; */
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+#guide>div{
+    height: 200px;
+    width: 380px;
+    /* border: 1px solid blue; */
+    margin: auto;
+}
+#guide1 h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 70px;
+}
+#guide div h3{
+    font-size: 22px;
+    color: #3070f0;
+}
+#guide div p{
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    line-height: 1.5;
+}
+#bottomLine{
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(191, 190, 190);
+}
+.guideLine{
+    width: 400px;
+    border-bottom: 1px solid rgb(191, 190, 190);
+}
