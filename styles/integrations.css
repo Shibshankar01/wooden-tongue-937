@@ -1,0 +1,55 @@
+@import url('../font/font.css');
+*, html{
+    margin: 0;
+    padding: 0;
+}
+.objectivityBold{
+    font-family: 'Objectivity-Bold';
+}
+.objectivityMedium{
+    font-family: 'Objectivity-Medium';
+}
+.objectivityRegular{
+    font-family: 'Objectivity-Regular';
+}
+.ptRootUiBold{
+    font-family: 'PT Root UI Bold';
+}
+.ptRootUiMedium{
+    font-family: 'PT Root UI Medium';
+}
+#heading{
+    background-color: #D7F7ED;
+    text-align: center;
+    padding-top: 144px;
+    padding-bottom: 48px;
+}
+#heading>h1{
+    font-size: 60px;
+    color: #292E33;
+    margin-bottom: 34px;
+}
+#heading>p{
+    width: 780px;
+    height: 56px;
+    margin: auto;
+    font-size: 20px;
+}
+#findIntegration{
+    /* background-image: url('https://tmetric.com/images/v3/icon-search.svg') no-repeat; */
+    height: 44px;
+    width: 100%;
+    padding: 10px 60px;
+    border: none;
+    border-bottom: 1px solid rgb(226, 230, 235);
+    font-size: 16px;
+    color: #212529;
+}
+#container{
+    padding: 64px 60px 40px 60px;
+    border: 1px solid red;
+}
+#container>#categories{
+    border: 1px solid black;
+    width: 20%;
+}
