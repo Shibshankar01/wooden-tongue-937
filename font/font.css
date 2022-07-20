@@ -8,7 +8,7 @@
     }
     
 
-    @font-face {
+@font-face {
     font-family: 'PT Root UI Light';
     font-style: normal;
     font-weight: normal;
@@ -16,7 +16,7 @@
     }
     
 
-    @font-face {
+@font-face {
     font-family: 'PT Root UI Medium';
     font-style: normal;
     font-weight: normal;
@@ -24,9 +24,16 @@
     }
     
 
-    @font-face {
+@font-face {
     font-family: 'PT Root UI Bold';
     font-style: normal;
     font-weight: normal;
     src: local('PT Root UI Bold'), url('../font/PT Root UI_Bold.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Objectivity-Bold';
+    font-size: normal;
+    font-weight: normal;
+    src: local('Objectivity-Bold'), url('../font/Objectivity-Bold.otf') format('opentype');
     }
