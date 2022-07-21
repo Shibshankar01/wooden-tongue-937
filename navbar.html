@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        /* @import url(./font/font.css); */
+        *{
+            font-family: 'Lato', sans-serif;
+        }
+    i{
+        border: solid #a4a9be;
+        border-width: 0px 2px 2px 0px;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        
+    }
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid; */
+        padding: 0 30px;
+        background-color: transparent;
+        /* font-family: 'PTRootUIMedium' , sans-serif; */
+        font-size: 14px;
+        color: #34393d;
+        
+    }
+    #navlogo{
+        width: 145px;
+        height: 45px;
+    }
+    #navbar>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px
+    }
+    
+    #language{
+        padding: 5px 15px;
+        margin-left: -20px;
+        font-size: 16px;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 1px solid #a4a9be;
+    }
+    .main{
+        color: #34393d;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #navsign{
+        /* font-family: 'PTRootUIBold' , sans-serif; */
+        color: #0370F0;
+        border: 1px solid;
+        padding: 5px 15px;
+        border-radius: 5px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <a href=""><img src="https://tmetric.com/images/tmetric_logo_with_text.svg" id="navlogo" alt=""></a>
+            <button id="language">EN</button>
+        </div>
+        <div>
+            <!-- <img src="https://www.svgrepo.com/show/80156/down-arrow.svg" alt=""> -->
+           
+            <div class="menu">Why TMetric <i> </i></div>
+            <div class="menu">Apps & Integrations <i> </i></div>
+            <div class="menu">Pricing</div>
+            <div class="menu">Support</div>
+            <div class="menu">Blog</div>
+        </div>
+        <div>
+            <a href="">Log In</a>
+            <a href="" id="navsign">Sign Up</a>
+        </div>
+
+    </div>
+</body>
+</html>
