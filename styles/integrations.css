@@ -1,0 +1,186 @@
+@import url('../font/font.css');
+*, html{
+    margin: 0;
+    padding: 0;
+}
+.font-48{
+    font-size: 48px;
+}
+.font-36{
+    font-size: 36px;
+}
+.objectivityBold{
+    font-family: 'Objectivity-Bold';
+}
+.objectivityMedium{
+    font-family: 'Objectivity-Medium';
+}
+.objectivityRegular{
+    font-family: 'Objectivity-Regular';
+}
+.ptRootUiBold{
+    font-family: 'PT Root UI Bold';
+}
+.ptRootUiMedium{
+    font-family: 'PT Root UI Medium';
+}
+#heading{
+    background-color: #D7F7ED;
+    text-align: center;
+    padding-top: 144px;
+    padding-bottom: 48px;
+}
+#heading>h1{
+    font-size: 60px;
+    color: #292E33;
+    margin-bottom: 34px;
+}
+#heading>p{
+    width: 780px;
+    height: 56px;
+    margin: auto;
+    font-size: 20px;
+}
+#findIntegration{
+    /* background-image: url('https://tmetric.com/images/v3/icon-search.svg') no-repeat; */
+    height: 44px;
+    width: 1228px;
+    padding: 10px 60px;
+    border: none;
+    border-bottom: 1px solid rgb(226, 230, 235);
+    font-size: 16px;
+    color: #212529;
+}
+#container{
+    padding: 64px 60px 40px 60px;
+    display: grid;
+    grid-template-columns: 20% 75%; 
+    justify-content: space-between;
+}
+#container>#categories{
+    align-self: flex-start;
+    height: auto;
+    position: sticky;
+    top: 120px;
+}
+#container>#categories>h3{
+    margin: 0px 0px 16px 24px;
+    font-size: 24px;
+    text-align: left;
+    color: #292e33;
+    width: 100%;
+}
+button:first-child{
+    width: 100%;
+    background-color: white;
+    border: none;
+    margin: none;
+    border-top: 1px solid rgb(226, 230, 235);
+    border-bottom: 1px solid rgb(226, 230, 235);
+    width: 232px;
+    height: 66px;
+    padding: 20px 16px 20px 24px;
+    text-align: left;
+    font-family: 'PT Root UI Medium';
+    font-size: 16px;
+    color: #4c5157;
+}
+button{
+    width: 100%;
+    background-color: white;
+    border: none;
+    margin: none;
+    border-bottom: 1px solid rgb(226, 230, 235);
+    width: 232px;
+    height: 66px;
+    padding: 20px 16px 20px 24px;
+    text-align: left;
+    font-family: 'PT Root UI Medium';
+    font-size: 16px;
+    color: #4c5157;
+}
+#container>#categories>button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    color: #3070F0;
+    cursor: pointer;
+}
+#container>#integrationContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 160px;
+    gap: 20px;
+}
+#container>#integrationContainer>div{
+    border: 1px solid #e2e6eb;
+    border-radius: 12px;
+    padding: 22px 24px 23px 24px;
+    text-align: center;
+    font-family: 'PT Root UI Medium';
+    font-size: 16px;
+    color: #212529;
+}
+#container>#integrationContainer>div:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+#container>#integrationContainer>div>img{
+    width: 100%;
+}
+#container>#integrationContainer>div>p{
+    font-weight: 200;
+    line-height: 1;
+    color: #212529;
+}
+#makeIntegration{
+    padding: 0px 0px 0px 220px;
+    text-align: left;
+    background-color: #D9F4FA;
+    display: flex;
+    height: 300px;
+}
+#makeIntegration>div{
+    width: 50%;
+    margin: auto;
+    color: #41338f;
+}
+#makeIntegration>div>h2{
+    font-size: 24px;
+    font-family: 'Objectivity-Bold';
+    margin-bottom: 30px;
+}
+#makeIntegration>div>p{
+    font-size: 16px;
+    font-family: 'PT Root UI Medium';
+}
+#makeIntegration>div>p>a{
+    text-decoration: none;
+    color: #3070F0;
+}
+#reviews{
+    height: 253px;
+    padding: 64px 60px;
+    text-align: center;
+    background-color: #FFF2CC;
+}
+#reviews>h3{
+    margin-bottom: 32px;
+}
+#reviews>img+h3{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+#reviews>a{
+    color: #3070f0;
+    text-decoration: none;
+}
+#reviews>a:hover{
+    color: black;
+    cursor: pointer;
+    margin: 0px;
+}
+.colorBlack{
+    color: #4c5157;
+}
+.colorBlue{
+    color: #3070F0;
+}
