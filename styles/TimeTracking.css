@@ -1,0 +1,49 @@
+#TimeMain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+#TimeMain1{
+    /* border: 1px solid red; */
+    border-right: 1px solid rgb(197, 194, 194);
+    height: 1000px;
+    width: auto;
+    font-size: 18px;
+    color: #212529;
+}
+#TimeMain2{
+    /* border: 1px solid blue; */
+    height: 1000px;
+    width: 1150px;
+}
+#TimeMain1 p{
+    margin-left: 50px;
+}
+#TimeMain1 h3{
+    margin-left: 30px;
+}
+#TimeMainLine{
+    border-bottom: 1px solid rgb(210, 206, 206);
+    width: 300px;
+    margin-left: 20px;
+}
+#TimeMain2 input{
+    height: 40px;
+    width: 900px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 6px;
+    border: 1px solid rgb(202, 201, 201);
+}
+#TimeMain2 p{
+    font-size: 17px;
+    margin-top: -18px;
+}
+#TimeMain2 h5{
+    font-size: 18px;
+    color: #3070f0;
+}
+#TimeMain2 div{
+    width: 900px;
+    margin-left: 120px;
+}

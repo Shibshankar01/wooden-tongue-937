@@ -92,3 +92,74 @@
     width: 400px;
     border-bottom: 1px solid rgb(191, 190, 190);
 }
+#questions{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    /* border: 1px solid red;   */
+    height: 1000px;
+    width: auto;
+    margin: auto;
+    background-color: #f8f9fa;
+    margin-top: -30px;
+    
+    
+}
+#questions1 div{
+    
+    padding-left: 30px;
+}
+#questions div{
+    height: auto;
+    width: 400px;
+    /* border: 1px solid blue; */
+    
+}
+#questions1 h2{
+    text-align: center;
+    font-size: 36px;
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+#questions div p{
+    color: #3070f0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.questionsLine{
+    width: auto;
+    border-bottom: 1px solid rgb(191, 190, 190);
+}
+#topic{
+    height: 350px;
+    width: 100%;
+    background-color: #2542b8;
+    margin-top: -30px;
+    color: white;
+    text-align: center;
+}
+#topic h2{
+    font-size: 36px;
+    padding-top: 70px;
+}
+#topic p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+#topic div{
+    margin: auto;
+    height: 100px;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+#topic button{
+    margin-top: 15px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid white;
+    background-color: #2542b8;
+    color: white;
+    font-size: 15px;
+}
