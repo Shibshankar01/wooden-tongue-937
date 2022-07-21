@@ -1,91 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        /* @import url(./font/font.css); */
-        *{
-            font-family: 'Lato', sans-serif;
+        @import url(./font/font.css);
+
+        * {
+            margin: 0;
+            padding: 0;
         }
-    i{
-        border: solid #a4a9be;
-        border-width: 0px 2px 2px 0px;
-        display: inline-block;
-        padding: 3px;
-        transform: rotate(45deg);
-        
-    }
-    #navbar{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        /* border: 1px solid; */
-        padding: 0 30px;
-        background-color: transparent;
-        /* font-family: 'PTRootUIMedium' , sans-serif; */
-        font-size: 14px;
-        color: #34393d;
-        
-    }
-    #navlogo{
-        width: 145px;
-        height: 45px;
-    }
-    #navbar>div{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px
-    }
-    
-    #language{
-        padding: 5px 15px;
-        margin-left: -20px;
-        font-size: 16px;
-        background-color: transparent;
-        border-radius: 5px;
-        border: 1px solid #a4a9be;
-    }
-    .main{
-        color: #34393d;
-    }
-    a{
-        text-decoration: none;
-        color: black;
-    }
-    #navsign{
-        /* font-family: 'PTRootUIBold' , sans-serif; */
-        color: #0370F0;
-        border: 1px solid;
-        padding: 5px 15px;
-        border-radius: 5px;
-    }
-    
+
+        /* i {
+            border: solid #a4a9be;
+            border-width: 0px 2px 2px 0px;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg);
+
+        } */
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+            background-color: transparent;
+            font-family: 'PT Root UI Medium', sans-serif;
+            font-size: 14px;
+            color: #34393d;
+        }
+
+        #navbar>div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px
+        }
+
+        #navLogo {
+            width: 145px;
+            height: 45px;
+        }
+
+        #language {
+            padding: 5px 15px;
+            margin-left: -20px;
+            font-size: 14px;
+            font-family: 'PT Root UI Bold', sans-serif;
+            background-color: transparent;
+            border-radius: 5px;
+            border: 1px solid #a4a9be;
+        }
+
+        #language:hover {
+            background-color: #ebedf0;
+        }
+
+        .nav_menu {
+            font-family: 'PT Root UI Regular', sans-serif;
+            color: #34393d;
+        }
+
+        .nav_menu>a {
+            text-decoration: none;
+            color: #34393d;
+        }
+
+        .nav_menu>a:hover {
+            color: #0370F0;
+        }
+
+        .drop-down:hover {
+            color: #0370F0;
+            cursor: pointer;
+        }
+
+        #nav_login {
+            font-family: 'PT Root UI Bold', sans-serif;
+            text-decoration: none;
+            color: #34393d;
+        }
+
+        #nav_login:hover {
+            color: #0370F0;
+        }
+
+        #nav_signin {
+            font-family: 'PT Root UI Bold', sans-serif;
+            color: #0370F0;
+            border: 1px solid;
+            padding: 5px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        #nav_signin:hover {
+            background-color: #0370F0;
+            color: white;
+        }
     </style>
 </head>
+
 <body>
     <div id="navbar">
         <div>
-            <a href=""><img src="https://tmetric.com/images/tmetric_logo_with_text.svg" id="navlogo" alt=""></a>
+            <a href=""><img src="https://tmetric.com/images/tmetric_logo_with_text.svg" id="navLogo" alt=""></a>
             <button id="language">EN</button>
         </div>
         <div>
-            <!-- <img src="https://www.svgrepo.com/show/80156/down-arrow.svg" alt=""> -->
-           
-            <div class="menu">Why TMetric <i> </i></div>
-            <div class="menu">Apps & Integrations <i> </i></div>
-            <div class="menu">Pricing</div>
-            <div class="menu">Support</div>
-            <div class="menu">Blog</div>
+            <div class="nav_menu drop-down">Why TMetric <i class="fa fa-angle-down"></i></div>
+            <div class="nav_menu drop-down">Apps & Integrations <i class="fa fa-angle-down"></i></div>
+            <div class="nav_menu"><a href="">Pricing</a></div>
+            <div class="nav_menu"><a href="">Support</a></div>
+            <div class="nav_menu"><a href="">Blog</a></div>
         </div>
         <div>
-            <a href="">Log In</a>
-            <a href="" id="navsign">Sign Up</a>
+            <a href="" id="nav_login">Log In</a>
+            <a href="" id="nav_signin">Sign Up</a>
         </div>
-
     </div>
 </body>
+
 </html>
