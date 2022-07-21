@@ -1,0 +1,31 @@
+@import url('../font/font.css');
+*, html{
+    margin: 0;
+    padding: 0;
+}
+.objectivityBold{
+    font-family: 'Objectivity-Bold';
+}
+.ptRootUiBold{
+    font-family: 'PT Root UI Bold';
+}
+#heading{
+    background-color: #FCE8FC;
+    text-align: center;
+    padding-top: 144px;
+    padding-bottom: 48px;
+}
+#heading>h1{
+    font-size: 60px;
+    color: #292E33;
+    margin-bottom: 34px;
+}
+#heading>p{
+    width: 600px;
+    height: 56px;
+    margin: auto;
+    font-size: 20px;
+}
+#heading>p>a{
+    text-decoration: none;
+}

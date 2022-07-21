@@ -1,4 +1,3 @@
-import get from '../components/fetch.js'
 let solutions = [
     {
         img:"https://tmetric.com/media/eaicsaaz/icon-solution-developers-over.svg",
@@ -78,21 +77,16 @@ let trustedBy = [
     }
 ]
 
-let getData = async()=>{
-    const url = `http://127.0.0.1:3000/api/solutions`;
-    let data = await get(url);
-    append(data)
+let getData = ()=>{
+    append(solutions);
 }
 let getDataTrustedBy = async()=>{
-    const url = `http://127.0.0.1:3000/api/trustedBy`;
-    let data = await get(url);
-    trustedByAppend(data);
+    trustedByAppend(trustedBy);
 }
 
 let trustedByAppend = (images)=>{
     let container = document.createElement("div");
     container.setAttribute("id", "trustedByContainer");
-    // container.innerHTML = "";
     images.forEach(el => {
         let image = document.createElement("img");
         image.src = el.img;
@@ -103,7 +97,6 @@ let trustedByAppend = (images)=>{
 
 let append = (solutions)=>{
     let container = document.querySelector("#container");
-    container.innerHTML = "";
     solutions.forEach(el => {
         let div = document.createElement("div");
         let img = document.createElement("img");
