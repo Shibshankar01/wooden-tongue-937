@@ -4,26 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>login</title>
     <style>
-        #main{
-            border: 1px solid red;
-            height: 500px;
-            width: 80%;
-            margin:auto;
-            display: flex;
-        }
         #sign{
             border: 1px solid rgb(85, 67, 67);
-            height: 100%;
-            width: 50%;
+            height: 600px;
+            width: 30%;
+            margin: auto;
         
         }
-        #pic{
-            border: 1px solid rgb(85, 67, 67);
-            height: 100%;
-            width: 50%;
-        
+        #logo{
+            margin-top: 50px;
+            margin-left: 30%;
         }
         form{
             display: grid;
@@ -34,62 +26,76 @@
             margin-top: -30px;
            
         }
-        p{
-            margin-top: -1000px;
-
+        #upper{
+          
+            height: 30%;
+            width: 100%;
+            background-color: #f2f5fc;
+           
+        }
+        #lower{
+            
+            height: 60%;
+            width: 100%;
+            margin-top:40px;
         }
         input{
-            border-radius: 10px;
-            padding: 7px;
+            border-radius: 7px;
+            padding: 2px;
         }
         .inputlog{
             background-color: blue;
             color: white;
         }
-        h1{
-            text-align: center;
-        }
-        #logo{
-            margin-left: 30%;
-        }
-        #banner{
-            background-color: #f2f5fc;
-            height: 100%;
-            width: 100%;
-        }
     </style>
 </head>
 <body>
-    <div id="main">
-        <div id="sign">
+    <div id="sign">
+        <div id="upper">
             <img id="logo" src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
 
-            <h1>Create your account</h1>
+        <h1 style="text-align:center">Log into TMetric</h1>
+        </div>
+        <div id="lower">
             <form>
-               
-                <h4>Name</h4>
-                <input id="user"  type="text" placeholder=" Join Smith"/>
+           
+           
+            
                 <h4>Email</h4>
                 <input id="email" type="text" placeholder="joinsmith@mail.com"/>
                 <h4>Password</h4>
                 <input id="pass"  type="password" placeholder="Enter Your Password"/>
-                <input type="checkbox" > <p>I accept</p>
+           
                 
                 
-                <input class="inputlog" type="submit" value="Sign Up"/>
+                <input class="inputlog" type="submit" value="Login"/>
                 <h3>---------------------Or-----------------------</h3>
                 <input class="" type="text" placeholder="Sign in" onclick="window.location.href='login.html'"/>
             </form>
-        </div>
-        <div id="pic">
-            <img id="banner"src="https://id.tmetric.com/images/side_image_register.svg" alt="">
-        </div>
-    </div>
 
-   
+        </div>
+        
     </div>
+    
 </body>
 </html>
 <script>
-
+    document.querySelector("form").addEventListener("submit", signin);
+    var regdUsers=JSON.parse(localStorage.getItem("userDataBase"));
+    
+    function signin(event){
+        event.preventDefault();
+        var user=document.querySelector("#user").value;
+        var pass=document.querySelector("#pass").value;
+        
+        
+        for(var i=0; i<regdUsers.length;i++) {
+            console.log(regdUsers[i].passwd);
+            if(regdUsers[i].userName == user && regdUsers[i].passwd ==pass){
+                window.location.href="home.html";
+            } 
+           
+           
+        }
+    }
 </script>
