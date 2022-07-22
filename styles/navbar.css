@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles/navbar.css">
-    <!-- <style>
-        @import url(./font/font.css);
+@import url(../font/font.css);
 
         * {
             margin: 0;
@@ -106,27 +93,3 @@
             background-color: #0370F0;
             color: white;
         }
-    </style> -->
-</head>
-
-<body>
-    <div id="navbar">
-        <div>
-            <a href=""><img src="https://tmetric.com/images/tmetric_logo_with_text.svg" id="navLogo" alt=""></a>
-            <button id="language">EN</button>
-        </div>
-        <div>
-            <div class="nav_menu drop-down">Why TMetric <i class="fa fa-angle-down"></i></div>
-            <div class="nav_menu drop-down">Apps & Integrations <i class="fa fa-angle-down"></i></div>
-            <div class="nav_menu"><a href="pricing.html">Pricing</a></div>
-            <div class="nav_menu"><a href="support.html">Support</a></div>
-            <div class="nav_menu"><a href="blog.html">Blog</a></div>
-        </div>
-        <div>
-            <a href="login.html" id="nav_login">Log In</a>
-            <a href="signup.html" id="nav_signin">Sign Up</a>
-        </div>
-    </div>
-</body>
-
-</html>
