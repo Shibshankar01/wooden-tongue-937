@@ -1,0 +1,108 @@
+#blogMain{
+    height: 400px;
+    width: auto;
+    
+    /* background-color: aquamarine; */
+}
+#blogMain>img{
+    height: 400px;
+    width: 100%;
+}
+#logo1{
+    height: 50px;
+    margin-top: -250px;
+    margin-left: 600px;
+}
+#logo1>p{
+    font-size: 25px;
+    color: white;
+    margin-left: -100px;
+    margin-top: -5px;
+}
+#manage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 100%;
+    margin-top: 25px;
+}
+#manage1{
+    height: 400px;
+    width: 700px;
+    /* border: 1px solid blue; */
+    margin-left: 200px;
+}
+#manage1>img{
+    height: 400px;
+    width: 700px;
+}
+#manage2{
+    height: 400px;
+    width: 400px;
+    /* border: 1px solid chartreuse; */
+    line-height: 1.5;
+    margin-left: 20px;
+}
+#manage2 div{
+    /* margin-left: 70px; */
+    margin-top: 50px;
+}
+#manage2 div>p{
+    margin-top: -15px;
+}
+#victo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    
+}
+#victo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+#victoInfo{
+    margin-left: -150px;
+    padding-top: 10px;
+}
+#hacks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7,1fr);
+    /* background-color: blanchedalmond; */
+    margin-top: 25px;
+}
+#hacks>div{
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: auto;
+    width: 400px;
+    margin: auto;
+}
+#hacksImg{
+    height: 200px;
+    width: 400px;
+}
+#victo11{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+}
+#victoMain{
+    display: flex;
+    align-items: center;
+}
+#victoInfo1{
+    line-height: 0.5;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* #hacks :nth-child(1){
+    color: #3070f0;
+} */
+#proColor{
+    color: #3070f0;
+}
+
+
