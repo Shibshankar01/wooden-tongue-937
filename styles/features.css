@@ -9,6 +9,12 @@
 .ptRootUiBold{
     font-family: 'PT Root UI Bold';
 }
+.font-24px{
+    font-size: 24px;
+}
+.font-20px{
+    font-size: 20px;
+}
 #heading{
     background-color: #FCE8FC;
     text-align: center;
@@ -28,4 +34,125 @@
 }
 #heading>p>a{
     text-decoration: none;
+}
+#featuresTable{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.padding18-10-14-40{
+    padding: 18px 10px 14px 40px;
+}
+thead>tr>th:first-child{
+    text-align: left;
+    padding: 14px 20px 7px 40px;
+    width: 320px;
+}
+thead{
+    height: 85px;
+    position: sticky;
+    top: 64px;
+    background-color: white;
+}
+.backgroundcolorGrey{
+    background-color: #F6F7F8;
+}
+tbody>tr>th{
+    text-align: left;
+    /* width: 100%; */
+}
+.sign-up>button{
+    border: 1px solid #b6c7f0;
+    border-radius: 6px;
+    background-color: white;
+    color: #3070F0;
+    font-family: 'PT Root UI Bold';
+    padding: 5px 16px;
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
+    margin: 0%;
+    font-weight: 100;
+}
+tbody>tr{
+    height: 47px;
+}
+tbody>tr>td{
+    font-size: 16px;
+    font-family: 'PT Root UI Medium';
+    padding: 11px 5px 12px 40px;
+}
+tbody>tr>td:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+tr>td:first-child>i{
+    color: #d0d6db !important;
+}
+tr>td:nth-child(2)>i, tr>td:nth-child(3)>i, tr>td:nth-child(4)>i{
+    color: #17c22e !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#featuresTable thead tr th:first-child{
+    border: 1px solid #e2e6eb;
+    border-width: 1px 1px;
+    border-collapse: collapse;
+    margin: 0;
+}
+#featuresTable thead tr th{
+    border: 1px solid #e2e6eb;
+    border-width: 1px 1px 1px 0;
+    border-collapse: collapse;
+    margin: 0;
+}
+#featuresTable tbody tr th{
+    border: 1px solid #e2e6eb;
+    border-width: 0 0 1px 0;
+    border-collapse: collapse;
+    margin: 0;
+}
+#featuresTable tbody tr td{
+    border: 1px solid #e2e6eb;
+    border-width: 0 0 1px 0;
+    border-collapse: collapse;
+    margin: 0;
+}
+#questions{
+    text-align: center;
+    color: #41338f;
+    padding: 64px 60px;
+    background-color: #D9F4FA;
+}
+#questions>h2{
+    font-family: 'Objectivity-Bold';
+    font-size: 36px;    
+    margin-bottom: 32px;
+}
+#questions>span{
+    font-family: 'PT Root UI Bold';
+    font-size: 20px;
+    display: block;
+}
+#questions>button{
+    width: 128px;
+    height: 44px;
+    border: 1px solid #b6c7f0;
+    border-radius: 6px;
+    color: #212529;
+    padding: 9px 12px;
+    background-color: #D9F4FA;
+    font-family: 'PT Root UI Bold';
+    font-size: 16px;
+}
+#questions>button:hover{
+    color: white;
+    background-color: #06c;
+    border-color: #06c;
+    cursor: pointer;
+}
+.margin-bottom-32{
+    margin-bottom: 32px;
 }
