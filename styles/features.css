@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+#navbar{
+    background-color: white;
+}
 .objectivityBold{
     font-family: 'Objectivity-Bold';
 }

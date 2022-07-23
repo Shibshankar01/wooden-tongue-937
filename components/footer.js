@@ -1,5 +1,5 @@
 let footer = () =>{
-    return `<div class="footer-container">
+    return `
     <div class="footer">
         <div class="footer-heading col-1">
             <a href=""><img src="https://tmetric.com/images/tmetric_logo_with_text.svg" width="147" height="54"
@@ -67,8 +67,7 @@ let footer = () =>{
                 <i class="fab fa-youtube fa-lg"></i>
             </a>
         </div>
-    </div>
-</div>`
+    </div>`
 }
 
 export default footer;

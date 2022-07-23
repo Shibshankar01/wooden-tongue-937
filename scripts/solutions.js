@@ -1,3 +1,5 @@
+import navbar from '../components/navbar.js';
+import footer from '../components/footer.js';
 let solutions = [
     {
         img:"https://tmetric.com/media/eaicsaaz/icon-solution-developers-over.svg",
@@ -76,6 +78,9 @@ let trustedBy = [
         img:"https://tmetric.com/media/3jslxcgk/logo-business-representa.svg"
     }
 ]
+
+document.querySelector("#navbar").innerHTML = navbar();
+document.querySelector(".footer-container").innerHTML = footer();
 
 let getData = ()=>{
     append(solutions);
