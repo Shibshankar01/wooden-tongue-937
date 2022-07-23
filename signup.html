@@ -9,7 +9,7 @@
     <style>
         #main{
             border: 1px solid red;
-            height: 500px;
+            height: 650px;
             width: 80%;
             margin:auto;
             display: flex;
@@ -35,14 +35,11 @@
             /* margin-top: -30px; */
            
         }
-        /* p{
-            margin-top: -1000px;
-
-        } */
+        
         input{
             border-radius: 10px;
             padding: 7px;
-            width: 70%;
+            width: 75%;
         }
         .inputlog{
             background-color: blue;
@@ -61,6 +58,37 @@
         }
         h4{
            margin-bottom: 1px;
+        }
+        #checkbox{
+            width:15%
+        }
+        span:hover{
+           
+            text-decoration: underline;
+
+        }
+        span{
+            color:blue
+        }
+        .last{
+            margin-top: 5px;
+        }
+        p{
+            margin-left:-10px
+        }
+        #lastline{
+            margin-left:20%
+        }
+        .sitelogin{
+            border:1px solid black;
+            width:70%;
+            height:32px;
+            border-radius: 5px;
+            text-align:center;
+            display:flex;
+        }
+        .siteloginpic{
+            height:70%
         }
     </style>
 </head>
@@ -81,10 +109,21 @@
                 <input id="email" type="text" placeholder="joinsmith@mail.com"/>
                 <h4>Password</h4>
                 <input id="pass"  type="password" placeholder="Enter Your Password"/>
-                <input type="checkbox" /> <p>I accept</p>
+                <br/>
+                <input type="checkbox" id="checkbox" /> <p style="display:inline-block">I accept <span>Terms of Service</span></p>
                 <input class="inputlog" type="submit" value="Sign Up" placeholder="signup"/>
                 <h3>---------------------Or-----------------------</h3>
-                <input class="" type="text" placeholder="Sign in" onclick="window.location.href='login.html'"/>
+                <div class="sitelogin"> 
+                    <img class="siteloginpic" src="https://id.tmetric.com/images/google_logo.svg" alt=""> 
+                    <div></div>
+                    <h3>Signup with Google</h5>
+                </div>
+                <input class="last" type="text" placeholder="Signup with facebook" onclick="window.location.href='login.html'"/>
+                <input class="last" type="text" placeholder="Signup with Google" onclick="window.location.href='login.html'"/>
+                <input class="last" type="text" placeholder="Signup with Apple" onclick="window.location.href='login.html'"/>
+
+                <p id="lastline">Already have an account? <span onclick="window.location.href='login.html'">login </span></p>
+            
             </form>
             
             
