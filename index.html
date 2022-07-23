@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
     <title>tmetric</title>
 </head>
 
 <body>
-
+    <div id="navbar"></div>
     <div id="main_b_box">
         <div id="ri8_b_box">
             <h2 id="head_1">Make the best use of your time</h2>
@@ -53,7 +56,7 @@
                 <img id="img_2" src="https://tmetric.com/media/e5enfaae/img-advantages.png" alt="">
             </div>
             <div id="left_box_1">
-                <div id="onClickDiv1" onclick="clickFunc1()">
+                <div id="onClickDiv1">
                     <div class="div_1">
                         <img class="img_4" src="https://tmetric.com/media/2p4n4oyc/icon-timer-blue.svg" alt="">
                         <h2>Time Tracking</h2>
@@ -61,7 +64,7 @@
                     <p>Capture every task you work on. Take control over time intervals by simple time tracking</p>
                 </div>
 
-                <div id="onClickDiv2" onclick="clickFunc2()">
+                <div id="onClickDiv2">
                     <div class="div_1">
                         <img class="img_4" src="https://tmetric.com/media/1niddz51/icon-project-blue.svg" alt="">
                         <h2>Project Management</h2>
@@ -69,14 +72,14 @@
                     <p></p>
                 </div>
 
-                <div id="onClickDiv3" onclick="clickFunc3()">
+                <div id="onClickDiv3">
                     <div class="div_1">
                         <img class="img_4" src="https://tmetric.com/media/2gxihhdu/icon-team-blue.svg" alt="">
                         <h2>Team Management</h2>
                     </div>
                     <p></p>
                 </div>
-                <div id="onClickDiv4" onclick="clickFunc4()">
+                <div id="onClickDiv4">
                     <div class="div_1">
                         <img class="img_4" src="https://tmetric.com/media/s4koycnp/icon-invoice-blue.svg" alt="">
                         <h2>
@@ -85,7 +88,7 @@
                     <p></p>
                 </div>
 
-                <div id="onClickDiv5" onclick="clickFunc5()">
+                <div id="onClickDiv5">
                     <div class="div_1">
                         <img class="img_4" src="https://tmetric.com/media/yoblhiut/icon-reports-blue.svg" alt="">
                         <h2>Reporting</h2>
@@ -93,7 +96,7 @@
                     <p></p>
                 </div>
 
-                <div id="onClickDiv6" onclick="clickFunc6()">
+                <div id="onClickDiv6">
                     <div class="div_1">
                         <img class="img_4" src="https://tmetric.com/media/cajpa4uy/icon-time-off-blue.svg" alt="">
                         <h2>Time Off</h2>
@@ -133,15 +136,13 @@
         </div>
         <div id="left_box_3">
 
-            <h2 id="head_4">Manage your team effectively</h2>
+            <h2 id="head_4">Ensure the profitability of your business</h2>
             <ul>
-                <li>timekeeping</li>
-                <li>sites and apps monitoring</li>
-                <li>activity tracking</li>
-                <li>screenshots capturing</li>
-                <li>task management</li>
-                <li>50+ integrations</li>
-                <li>work schedule</li>
+                <li>project management</li>
+                <li>project budgeting</li>
+                <li>billing and invoicing</li>
+                <li>accurate payroll</li>
+                <li>detailed reports</li>
             </ul>
             <button id="btn_3">Start Free Trial</button>
         </div>
@@ -248,21 +249,24 @@
             </div>
         </div>
         <div id="track_icons">
-            <h5 onclick="iconFunc1()">Software developers</h5>
-            <h5 onclick="iconFunc2()">Marketers</h5>
-            <h5 onclick="iconFunc3()">Designers</h5>
-            <h5 onclick="iconFunc4()">Contractors</h5>
-            <h5 onclick="iconFunc5()">Consultants</h5>
-            <h5 onclick="iconFunc6()">Freelancers</h5>
+            <h5 id="icon1">Software developers</h5>
+            <h5 id="icon2">Marketers</h5>
+            <h5 id="icon3">Designers</h5>
+            <h5 id="icon4">Contractors</h5>
+            <h5 id="icon5">Consultants</h5>
+            <h5 id="icon6">Freelancers</h5>
 
         </div>
     </div>
     <!-- -------------------------------------------------------------------------------------------------------------- -->
     <div class="reviews">
-        <h1>Read Hundreds of Reviews</h1>
-        <img src="https://tmetric.com/media/rt1k0zjc/img-rating-4-5.svg" />
-        <h1>4.5 Customer Rating</h1>
-        <h2 class="review190">190 Reviews</h2>
+        <div>
+            <h1>Read Hundreds of Reviews</h1>
+            <img src="https://tmetric.com/media/rt1k0zjc/img-rating-4-5.svg" />
+            <h1>4.5 Customer Rating</h1>
+            <h2 class="review190">190 Reviews</h2>
+        </div>
+
     </div>
     <!-- -------------------------------------------------------------------------------------------------------------- -->
     <div class="businesses">
@@ -309,14 +313,16 @@
     <!-- -------------------------------------------------------------------------------------------------------------- -->
 
     <div class="Make_time_work">
-        <h1>Make time work for you!</h1>
-        <button class="starttrail_Make_time_work_start">Start Free Trial</button>
-        <p>Powered by A software vendor with 20-years of experience.</p>
+        <div>
+            <h1>Make time work for you!</h1>
+            <button class="starttrail_Make_time_work_start">Start Free Trial</button>
+            <p>Powered by A software vendor with 20-years of experience.</p>
+        </div>
     </div>
-
+    <div class="footer-container"></div>
 </body>
 
 </html>
 
 
-<script src="./scripts/index.js"></script>
+<script src="./scripts/index.js" type="module"></script>
