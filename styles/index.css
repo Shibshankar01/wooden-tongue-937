@@ -366,7 +366,7 @@ ul {
     /* border: 1px solid black; */
 }
 .Integration >h1{
-    font-size:50px;
+    font-size:60px;
     line-height: 1.166;
     font-family: ObjectivityBold, sans-serif;
     color: #212529;
@@ -647,4 +647,11 @@ border-radius: 10px;
     /* color:#3070F0; */
     /* margin-left:4%; */
     font-family: PTRootUIMedium,sans-serif;
+}
+#track_icons>h5:hover{
+    color: #3070F0;
+    cursor: pointer;
+}
+#img_trc_1{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
