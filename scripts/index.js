@@ -1,13 +1,13 @@
+import navbar from '../components/navbar.js';
+import footer from '../components/footer.js';
 
 
-const onClickDiv1 = document.querySelector('#onClickDiv1');
-const onClickDiv2 = document.querySelector('#onClickDiv2');
-const onClickDiv3 = document.querySelector('#onClickDiv3');
-const onClickDiv4 = document.querySelector('#onClickDiv4');
-const onClickDiv5 = document.querySelector('#onClickDiv5');
-const onClickDiv6 = document.querySelector('#onClickDiv6');
+document.querySelector("#navbar").innerHTML = navbar();
+document.querySelector(".footer-container").innerHTML = footer();
+
 
 const ri8_box_1 = document.querySelector('#ri8_box_1');
+
 
 
 let clickFunc1 = () => {
@@ -355,9 +355,29 @@ const p_11 = document.querySelector('#p_11');
 const h6 = document.querySelector('#h_6');
 const img_trc = document.querySelector('#img_trc');
 const img_trc_1 = document.querySelector('#img_trc_1');
+const icon1 = document.querySelector('#icon1');
+icon1.addEventListener("click",iconFunc1)
+
+const icon2 = document.querySelector('#icon2');
+icon2.addEventListener("click",iconFunc2)
+
+const icon3 = document.querySelector('#icon3');
+icon3.addEventListener("click",iconFunc3)
+
+const icon4 = document.querySelector('#icon4');
+icon4.addEventListener("click",iconFunc4)
+
+const icon5 = document.querySelector('#icon5');
+icon5.addEventListener("click",iconFunc5)
+
+const icon6 = document.querySelector('#icon6');
+icon6.addEventListener("click",iconFunc6)
+
+
 
 
 function iconFunc1(){
+
    
 p_11.innerText = "We ultimately went with TMetric because it checked a lot of items on our want list. It’s both a desktop and web app, and has an API that we were able to integrate with our business management software. While that was the biggest selling point, we also really like the user interface, the Chrome extension, and built-in integration with Jira."   
 h6.innerText = "BizStream team"
@@ -407,3 +427,17 @@ function iconFunc3(){
                 img_trc_1.src= "https://tmetric.com/media/1nlgnvyj/photo-freelance.png"
                 
                 }
+
+
+                const onClickDiv1 = document.querySelector('#onClickDiv1');
+onClickDiv1.addEventListener("click",clickFunc1)
+const onClickDiv2 = document.querySelector('#onClickDiv2');
+onClickDiv2.addEventListener("click",clickFunc2)
+const onClickDiv3 = document.querySelector('#onClickDiv3');
+onClickDiv3.addEventListener("click",clickFunc3)
+const onClickDiv4 = document.querySelector('#onClickDiv4');
+onClickDiv4.addEventListener("click",clickFunc4)
+const onClickDiv5 = document.querySelector('#onClickDiv5');
+onClickDiv5.addEventListener("click",clickFunc5)
+const onClickDiv6 = document.querySelector('#onClickDiv6');
+onClickDiv6.addEventListener("click",clickFunc6)
