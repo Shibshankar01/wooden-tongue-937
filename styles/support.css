@@ -1,3 +1,5 @@
+@import url('../font/font.css');
+
 #how{
     height: 376px;
     width: 100%;
@@ -8,6 +10,7 @@
     font-size: 65px;
     padding-top: 140px;
     margin: 0px 0px 24px;
+    font-family: 'Objectivity-Bold';
 }
 #how input{
     height:45px ;
@@ -15,6 +18,7 @@
     border-radius: 6px;
     font-size: 20px;
     border: 1px solid #a1a7b2;
+    padding-left: 20px;
 }
 #quick div{
     height: 180px;
@@ -29,7 +33,7 @@
     margin: auto;
     text-align: center;
     margin-top: 50px;
-
+    font-family: 'Objectivity-Bold';
 }
 #quick{
     display: grid;
@@ -47,6 +51,7 @@
     font-size: 22px;
     color: #3070f0;
     margin-top: -30px;
+    font-family: 'PT Root UI Bold';
 }
 #quick img{
     border-radius: 10px;
@@ -69,15 +74,20 @@
     text-align: center;
     font-size: 36px;
     margin-top: 70px;
+    font-family: 'Objectivity-Bold';
 }
 #guide div h3{
     font-size: 22px;
     color: #3070f0;
+    font-family: 'PT Root UI Bold';
 }
 #guide div p{
     font-size: 18px;
     margin-left: 50px;
     margin-top: -10px;
+    font-family: 'PT Root UI Medium';
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 .icon{
     display: flex;
@@ -97,7 +107,7 @@
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(4,1fr);
     /* border: 1px solid red;   */
-    height: 1000px;
+    height: 800px;
     width: auto;
     margin: auto;
     background-color: #f8f9fa;
@@ -121,11 +131,13 @@
     background-color: #f8f9fa;
     padding-bottom: 50px;
     padding-top: 20px;
+    font-family: 'PT Root UI Bold';
 }
 #questions div p{
     color: #3070f0;
     font-size: 16px;
     line-height: 1.5;
+    font-family: 'PT Root UI Medium';
 }
 .questionsLine{
     width: auto;
@@ -142,10 +154,12 @@
 #topic h2{
     font-size: 36px;
     padding-top: 70px;
+    font-family: 'PT Root UI Bold';
 }
 #topic p{
     font-size: 20px;
     margin-top: 30px;
+    font-family: 'PT Root UI Medium';
 }
 #topic div{
     margin: auto;
@@ -162,4 +176,7 @@
     background-color: #2542b8;
     color: white;
     font-size: 15px;
+}
+#navbar{
+    background-color: #fff2cc !important;
 }

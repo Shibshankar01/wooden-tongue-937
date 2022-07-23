@@ -6,9 +6,16 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./styles/TimeTracking.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/footer.css">
     </head>
     <body>
+         <div id="navbar"></div>
+
         <div id="TimeMain">
               <div id="TimeMain1">
                    <h3>TMetric Documentation</h3>
@@ -87,11 +94,23 @@
                     <h5>Request a Demo</h5>
                     <p>Our team is always here to support you all the way from product onboarding to a detailed overview of the service features. Our experts will …</p>
                    </div>
-                   <!-- <h5>Request a Demo</h5> -->
               </div>
         </div>
+
+        <div id="didnot">
+             <h2>Didn’t find what you were looking for?</h2>
+             <p>If you didn't find what you were looking for, you can make a support request or email us to support@tmetric.com. We'll be glad to help you personally.</p>
+             <button>Contact Us</button>
+        </div>
         
+        <div class="footer-container"></div>
     </body>
 </html>
 
-<script src=""></script>
+<script type="module">
+    import navbar from "./components/navbar.js"
+    import footer from "./components/footer.js"
+
+    document.querySelector("#navbar").innerHTML=navbar();
+    document.querySelector(".footer-container").innerHTML=footer();
+</script>
