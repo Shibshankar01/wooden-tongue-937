@@ -1,15 +1,25 @@
+@import url('../font/font.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 #TimeMain{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(1,1fr);
+
 }
 #TimeMain1{
     /* border: 1px solid red; */
     border-right: 1px solid rgb(197, 194, 194);
-    height: 1000px;
+    height: 1100px;
     width: auto;
     font-size: 18px;
     color: #212529;
+    margin-top: 20px;
+
 }
 #TimeMain2{
     /* border: 1px solid blue; */
@@ -18,9 +28,13 @@
 }
 #TimeMain1 p{
     margin-left: 50px;
+    font-family: 'PT Root UI Medium';
+    margin-bottom: 18px;
+    margin-top: 18px;
 }
 #TimeMain1 h3{
     margin-left: 30px;
+    font-family: 'Objectivity-Bold';
 }
 #TimeMainLine{
     border-bottom: 1px solid rgb(210, 206, 206);
@@ -37,17 +51,43 @@
 }
 #TimeMain2 p{
     font-size: 17px;
-    margin-top: -18px;
+    margin-top: 10px;
+    font-family: 'PT Root UI Medium';
 }
 #TimeMain2 h5{
-    font-size: 18px;
+    font-size: 16px;
     color: #3070f0;
+    font-family: 'PT Root UI Medium';
+    margin-top: 15px;
 }
 #TimeMain2 div{
     width: 900px;
     margin-left: 120px;
 }
-/* #TimeMain2 div{
-    width: 900px;
-    margin-left: 120px;
-} */
+#didnot{
+    height: 350px;
+    width: 100%;
+    background-color: #C9EDF8;
+    text-align: center;
+}
+#didnot h2{
+    color: #41338F;
+    font-size: 36px;
+    padding-top: 70px; 
+    font-family: 'Objectivity-Bold';
+}
+#didnot p{
+    color: #41338F;
+    font-size: 20px;
+    font-family: 'PT Root UI Bold';
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 400px;
+}
+#didnot button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 60px;
+    border-radius: 6px;
+    border: 1px solid rgb(188, 186, 186);
+    background-color: #C9EDF8;
+}
