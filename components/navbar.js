@@ -1,5 +1,5 @@
 let navbar = () =>{
- return `<div id="navbar">
+ return `
  <div>
      <a href=""><img src="https://tmetric.com/images/tmetric_logo_with_text.svg" id="navLogo" alt=""></a>
      <button id="language">EN</button>
@@ -14,7 +14,6 @@ let navbar = () =>{
  <div>
      <a href="login.html" id="nav_login">Log In</a>
      <a href="signup.html" id="nav_signin">Sign Up</a>
- </div>
-</div>`
+ </div>`
 }
 export default navbar;
