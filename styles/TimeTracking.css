@@ -91,3 +91,6 @@
     border: 1px solid rgb(188, 186, 186);
     background-color: #C9EDF8;
 }
+#navbar{
+    background-color: white !important ;
+}
