@@ -85,7 +85,7 @@ p{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 #reviews{
-    height: 253px;
+    height: 350px;
     padding: 64px 60px;
     text-align: center;
     background-color: #FFF2CC;
@@ -108,7 +108,7 @@ p{
 }
 #trustedBy{
     text-align: center;
-    height: 200px;
+    height: 275px;
     background-color: #F6F7F8;
     padding: 48px 0px 33px 0px;
 }
