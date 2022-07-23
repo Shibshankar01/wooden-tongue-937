@@ -24,6 +24,9 @@
 .ptRootUiMedium{
     font-family: 'PT Root UI Medium';
 }
+#navbar{
+    background-color: #D7F7ED !important;
+}
 #heading{
     background-color: #D7F7ED;
     text-align: center;
@@ -70,7 +73,7 @@
     color: #292e33;
     width: 100%;
 }
-button:first-child{
+h3+button{
     width: 100%;
     background-color: white;
     border: none;
@@ -85,7 +88,7 @@ button:first-child{
     font-size: 16px;
     color: #4c5157;
 }
-button{
+button+button{
     width: 100%;
     background-color: white;
     border: none;
@@ -157,7 +160,7 @@ button{
     color: #3070F0;
 }
 #reviews{
-    height: 253px;
+    height: 350px;
     padding: 64px 60px;
     text-align: center;
     background-color: #FFF2CC;
