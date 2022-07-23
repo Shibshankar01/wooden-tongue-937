@@ -349,3 +349,61 @@ let clickFunc6 = () => {
 <p>Add a PTO policy for your organization, simply ask for days off, control missed workdays, manage balances and teams attendance hassle-free</p>`
 }
 
+// ---------------------------------------------------------------------------------------------------------------------
+
+const p_11 = document.querySelector('#p_11');
+const h6 = document.querySelector('#h_6');
+const img_trc = document.querySelector('#img_trc');
+const img_trc_1 = document.querySelector('#img_trc_1');
+
+
+function iconFunc1(){
+   
+p_11.innerText = "We ultimately went with TMetric because it checked a lot of items on our want list. It’s both a desktop and web app, and has an API that we were able to integrate with our business management software. While that was the biggest selling point, we also really like the user interface, the Chrome extension, and built-in integration with Jira."   
+h6.innerText = "BizStream team"
+img_trc.src = "https://tmetric.com/media/j2klt5pd/img-rating-5.svg"
+img_trc_1.src = "https://tmetric.com/media/hznb1sgs/photo-software-developers.png"
+
+}
+function iconFunc2(){
+   
+    p_11.innerText = "We’ve found TMetric to be both user friendly and robust. It was easy to setup which allowed us to begin leveraging the tool immediately. It also provides multiple layers of reporting which provides value to our organization on a number of different levels."   
+    h6.innerText = "Brian Reilly, BankBound"
+    img_trc.src = "https://tmetric.com/media/j2klt5pd/img-rating-5.svg"
+    img_trc_1.src = "https://tmetric.com/media/dhbotvr1/photo-marketers.png"
+    
+    }
+
+function iconFunc3(){
+   
+    p_11.innerText = "TMetric is faster, more convenient and cheaper, the support is responsive and they fixed some bugs quickly."   
+    h6.innerText = "Swen Roethlisberger, Floowedit"
+    img_trc.src = "https://tmetric.com/media/j2klt5pd/img-rating-5.svg"
+    img_trc_1.src= "https://tmetric.com/media/bxyho4oy/photo-designers.png"
+    
+    }
+
+    function iconFunc4(){
+   
+        p_11.innerText = "I recently transitioned from full-time employee to ‘consultant’. Needed an app to track projects, tasks and generate billing based on our agreement. TMetric handles this elegantly and I can access from my iPhone, iPad or PC- awesome!"   
+        h6.innerText = "Jim Rolph, Manufacturer's Representative at Gorman Company"
+        img_trc.src= "https://tmetric.com/media/j2klt5pd/img-rating-5.svg"
+        img_trc_1.src= "https://tmetric.com/media/2pdfttnr/photo-contractors.png"
+        
+        }
+        function iconFunc5(){
+   
+            p_11.innerText = "After five months we are very happy with the app and will gladly renew the service. We are still finding new uses for it within our organization and it’s been pivotal for helping us gather better decision-making information, grow our topline and reduce our bottomline."   
+            h6.innerText = "Galeno Chua, The Idea Founding Principal"
+            img_trc.src= "https://tmetric.com/media/j2klt5pd/img-rating-5.svg"
+            img_trc_1.src= "https://tmetric.com/media/ipkhp5ts/photo-consulting.png"
+            
+            }
+            function iconFunc6(){
+   
+                p_11.innerText = "There are plenty of available applications to monitor working time. We chose TMetric because of the suitable price and compatibility with Trello and Google Documents, which we use every day in our company."   
+                h6.innerText = "Patryk Hoffmann, MyLead"
+                img_trc.src= "https://tmetric.com/media/j2klt5pd/img-rating-5.svg"
+                img_trc_1.src= "https://tmetric.com/media/1nlgnvyj/photo-freelance.png"
+                
+                }
