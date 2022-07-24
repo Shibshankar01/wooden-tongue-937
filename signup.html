@@ -7,6 +7,10 @@
     <title>Signup
     </title>
     <style>
+         @import url(./font/font.css);
+        body{
+            font-family: 'PT Root UI Light';
+        }
         #main{
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             height: 650px;
@@ -41,12 +45,14 @@
             padding: 7px;
             width: 75%;
             border-width:0.5px;
-            border-color: rgb(214, 210, 210);
+            border-color: rgb(158, 154, 154);
+            border-width: 1px;
         }
         .inputlog{
             background-color: blue;
             color: white;
-            width:80%
+            width:80%;
+           
         }
         h1{
             text-align: center;
@@ -62,10 +68,12 @@
         }
         h4{
            margin-bottom: 1px;
-           color: rgb(158, 152, 152);
+           color: rgb(187, 179, 179);
         }
         #checkbox{
-            width:15%
+            width:15%;
+            border-width: 5px;
+            border-color: black;
         }
         span:hover{
            
@@ -85,7 +93,7 @@
             margin-left:20%
         }
         .sitelogin{
-            border:1px solid rgb(197, 195, 195);
+            border:1px solid rgb(114, 110, 110);
             width:80%;
             height:32px;
             border-radius: 5px;
@@ -180,7 +188,7 @@
         };
         userStack.push(userData);
         localStorage.setItem("userDataBase",JSON.stringify(userStack));
-        alert("signnnnnnnnnn");
+        alert("sign up successfully");
         window.location.href="login.html";
         console.log(userStack);
        
