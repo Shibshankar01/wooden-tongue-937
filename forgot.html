@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot</title>
+    <style>
+        @import url(./font/font.css);
+        body{
+            font-family: 'PT Root UI Light';
+        }
+        #sign{
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            height: 600px;
+            width: 35%;
+            margin: auto;
+        
+        }
+        #logo{
+            margin-top: 50px;
+            margin-left: 30%;
+        }
+        form{
+            display: grid;
+            grid-template-rows: repeat(5,40px);
+            grid-template-columns: repeat(1,300px);
+            grid-gap: 2px;
+            padding-left: 80px;
+            margin-top: -30px;
+           
+        }
+        #upper{
+          
+            height: 30%;
+            width: 100%;
+            background-color: #f2f5fc;
+           
+        }
+        #lower{
+            
+            height: 40%;
+            width: 130%;
+            margin-top:40px;
+        }
+        input{
+            border-radius: 7px;
+            padding: 2px;
+            width:120%;
+            border-color: rgb(231, 216, 216);
+            margin-left: -25px;
+        }
+        
+        .inputlog{
+            background-color: blue;
+            color: white;
+            margin-top: 10px;
+            width:123%;
+            border-width: 0px;
+        }
+       p{
+        padding-bottom: 30px;
+       }
+       #last{
+        padding-top: 15%;
+        margin: auto;
+        padding-left: 30%;
+        
+       }
+       #logsign{
+        color: blue;
+       }
+    </style>
+</head>
+<body>
+    <div id="sign">
+        <div id="upper">
+            <img id="logo" src="https://id.tmetric.com/images/tmetric_logo_and_text.svg" alt="">
+
+        <h1 style="text-align:center">Forgot Your Password?</h1>
+        </div>
+        <div id="lower">
+            <p style="padding-left:10%">Enter your email and we'll send you a reset link.</p>
+            <form>
+                <input id="email" class="line" type="text" placeholder="joinsmith@mail.com"/>
+                
+                <input class="inputlog" type="submit" value="Sent Me the Resent Link"/>
+            
+            </form>
+            <div id="last">
+                <div id="logsign"><h4 style=" margin-top: 0px;"onclick="window.location.href='login.html'"" >Back to the Login</h6></div>
+                       
+            </div>
+
+        </div>
+        
+      
+        
+        
+    </div>
+   
+</body>
+</html>
