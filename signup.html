@@ -190,11 +190,26 @@
             userName:user,
           
         };
-        userStack.push(userData);
-        localStorage.setItem("userDataBase",JSON.stringify(userStack));
-        alert("sign up successfully");
-        window.location.href="login.html";
-        console.log(userStack);
-       
+
+        let isValid = isUserValid(userData);
+        if (isValid) {
+            userStack.push(userData);
+            localStorage.setItem("userDataBase",JSON.stringify(userStack));
+            alert("Sign up successful");
+            window.location.href="login.html";
+            console.log(userStack);
+        }
+        else{
+            alert("User already Exists!!")
+        }
+    }
+    function isUserValid(user){
+        for (let i = 0; i < userStack.length; i++) {
+            if(userStack[i].emailAdd==user.emailAdd){
+                return false;
+            }            
+        }
+        return true;
+        // console.log(user, userStack);
     }
 </script>
