@@ -47,8 +47,9 @@
             border-radius: 7px;
             padding: 2px;
             width:110%;
-            border-color: rgb(214, 210, 210);
+            border-color: rgb(231, 216, 216);
         }
+        
         .inputlog{
             background-color: blue;
             color: white;
@@ -57,7 +58,7 @@
             border-width: 0px;
         }
         .sitelogin{
-            border:1px solid black;
+            border:1px solid rgb(231, 216, 216);
             width:110%;
             height:32px;
             border-radius: 5px;
@@ -95,6 +96,10 @@
             padding-left: 10px;
             color: blue;
         }
+        .line:hover{
+            border-color: rgb(161, 161, 228);
+            border-width: 2px;
+        }
     </style>
 </head>
 <body>
@@ -111,9 +116,9 @@
             
                 <h4 style="color:darkgray">Email</h4>
                 
-                <input id="email" type="text" placeholder="joinsmith@mail.com"/>
+                <input id="email" class="line" type="text" placeholder="joinsmith@mail.com"/>
                 <h4 style="color:darkgray">Password</h4>
-                <input id="pass"  type="password" placeholder="Enter Your Password"/>
+                <input id="pass" class="line" type="password" placeholder="Enter Your Password"/>
            
                 
                 

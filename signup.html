@@ -45,7 +45,7 @@
             padding: 7px;
             width: 75%;
             border-width:0.5px;
-            border-color: rgb(158, 154, 154);
+            border-color: rgb(231, 216, 216);
             border-width: 1px;
         }
         .inputlog{
@@ -93,7 +93,7 @@
             margin-left:20%
         }
         .sitelogin{
-            border:1px solid rgb(114, 110, 110);
+            border:1px solid rgb(231, 216, 216);
             width:80%;
             height:32px;
             border-radius: 5px;
@@ -119,6 +119,10 @@
            margin-top: 0px;
            font-size: 18px;
         }
+        .line:hover{
+            border-color: rgb(161, 161, 228);
+            border-width: 2px;
+        }
     </style>
 </head>
 <body>
@@ -133,11 +137,11 @@
             <form>
                 
                 <h4>Name</h4>
-                <input id="user" type="text" placeholder=" Join Smith"/>
+                <input id="user" class="line" type="text" placeholder=" Join Smith"/>
                 <h4>Email</h4>
-                <input id="email" type="text" placeholder="joinsmith@mail.com"/>
+                <input id="email" class="line" type="text" placeholder="joinsmith@mail.com"/>
                 <h4>Password</h4>
-                <input id="pass"  type="password" placeholder="Enter Your Password"/>
+                <input id="pass" class="line"  type="password" placeholder="Enter Your Password"/>
                 <br/>
                 <input type="checkbox" id="checkbox" /> <p style="display:inline-block">I accept <span>Terms of Service</span></p>
                 <input class="inputlog" type="submit" value="Sign Up" placeholder="signup"/>
