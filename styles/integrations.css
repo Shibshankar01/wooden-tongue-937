@@ -24,7 +24,7 @@
 .ptRootUiMedium{
     font-family: 'PT Root UI Medium';
 }
-#navbar{
+#navbar .wrapper{
     background-color: #D7F7ED !important;
 }
 #heading{

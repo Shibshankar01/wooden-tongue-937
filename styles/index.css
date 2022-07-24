@@ -1,6 +1,6 @@
 @import url('../font/font.css');
 
-#navbar {
+#navbar .wrapper{
     background-color: #fff0b8 !important;
 }
 
@@ -10,6 +10,7 @@ body {
 }
 
 #main_b_box {
+    padding-top: 50px;
     display: flex;
     width: 100%;
     height: 450px;
@@ -167,7 +168,7 @@ body {
     color: #212529;
 }
 
-ul {
+#ri8_box_2 ul {
 
     line-height: 1.5;
     font-size: 22px;
@@ -301,7 +302,7 @@ ul {
 }
 
 
-ul {
+#left_box_3 ul {
     font-size: 24px;
     font-family: "PT Root UI Medium";
     /* font-weight: bolder; */
@@ -369,14 +370,14 @@ ul {
 }
 
 
-ul {
+#ri8_box_4 ul {
     font-size: 24px;
     font-family: "PT Root UI Medium";
     /* margin-left: 5%; */
-    margin-top: 2%;
+    /* margin-top: 2%; */
 
     /* font-weight: bolder; */
-}
+ } 
 
 #btn_4 {
     padding: 15px 40px 15px 40px;
