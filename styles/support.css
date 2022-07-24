@@ -177,6 +177,6 @@
     color: white;
     font-size: 15px;
 }
-#navbar{
+#navbar .wrapper{
     background-color: #fff2cc !important;
 }

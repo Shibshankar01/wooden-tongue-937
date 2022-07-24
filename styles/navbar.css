@@ -14,13 +14,13 @@
 
         } */
 
-        #navbar {
+        /* #navbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 0 30px;
             /* background-color: transparent; */
-            font-family: 'PT Root UI Medium', sans-serif !important;
+            /* font-family: 'PT Root UI Medium', sans-serif !important;
             font-size: 16px;
             color: #34393d;
             height: 64px;
@@ -46,7 +46,7 @@
             font-size: 14px;
             font-family: 'PT Root UI Bold', sans-serif;
             /* background-color: transparent; */
-            border-radius: 5px;
+            /* border-radius: 5px;
             border: 1px solid #a4a9be;
         }
 
@@ -54,9 +54,9 @@
             background-color: #ebedf0;
         }
 
-        .nav_menu {
+        .nav_menu { */
             /* font-family: 'PT Root UI Regular', sans-serif; */
-            color: #34393d;
+            /* color: #34393d;
         }
 
         .nav_menu>a {
@@ -95,4 +95,132 @@
         #nav_signin:hover {
             background-color: #0370F0;
             color: white;
+        } */ 
+
+        #navbar{
+            position:fixed;
+            width: 100%;
+            z-index: 999;
+            font-family: 'PT Root UI Regular', sans-serif;
         }
+        #navbar .wrapper {
+            background-color: white;
+            
+            padding: 0 30px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .nav-links li a{
+            text-decoration: none;
+            font-size: 16px;
+            color: black;
+            /* padding: 9px 15px; */
+        }
+        .nav-links li a:hover{
+            color: #0370F0;
+        }
+        .wrapper .nav-links{
+            display: inline-flex;
+            gap: 30px;
+        }
+        .nav-links li{
+            list-style: none;
+        }
+        #nav_log-sign{
+            display: inline-flex;
+            gap: 30px;
+            align-items: center;
+        }
+        .logo {
+            display: inline-flex;
+            gap: 30px;
+            align-items: center;
+        }
+        #navLogo {
+                width: 145px;
+                height: 45px;
+            }
+        #language {
+                padding: 5px 15px;
+                margin-left: -20px;
+                font-size: 14px;
+                font-family: 'PT Root UI Bold', sans-serif;
+                background-color: transparent;
+                border-radius: 5px;
+                border: 1px solid #a4a9be;
+                
+            }
+            #language:hover {
+                background-color: #ebedf0;
+            }
+            .menu{
+                position: absolute;
+                top: 50px;
+                width: 100%;
+                left: 0;
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+                /* height: ; */
+                background-color: #ffffff;
+
+            }
+            .menu .content{
+                background-color: #ffffff;
+                padding: 25px 20px;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                /* height: auto; */
+            }
+            .content .row{
+                width: calc(25%-30px);            
+            }
+            .content .row header{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            
+            .row .menu-links li a{
+                padding:0 20px;
+                display: block;
+            }
+            .row .menu-links li{
+                padding-bottom: 20px;
+                margin: 10px;
+            }
+            .nav-links li:hover .menu{
+                top: 50px;
+                opacity: 1;
+                visibility: visible;
+                transition: all 0.3s ease;
+            }
+            .menu p{
+                text-align: center;
+            }
+            #nav_login {
+                font-family: 'PT Root UI Bold', sans-serif;
+                text-decoration: none;
+                color: #34393d;
+            }
+    
+            #nav_login:hover {
+                color: #0370F0;
+            }
+    
+            #nav_signin {
+                font-family: 'PT Root UI Bold', sans-serif;
+                color: #0370F0;
+                border: 1px solid;
+                padding: 5px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+    
+            #nav_signin:hover {
+                background-color: #0370F0;
+                color: white;
+            }
