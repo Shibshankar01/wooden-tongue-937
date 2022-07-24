@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <style>
+        @import url(./font/font.css);
+        body{
+            font-family: 'PT Root UI Light';
+        }
         #sign{
-            border: 1px solid rgb(85, 67, 67);
-            height: 600px;
-            width: 30%;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            height: 700px;
+            width: 35%;
             margin: auto;
         
         }
@@ -36,16 +40,65 @@
         #lower{
             
             height: 60%;
-            width: 100%;
+            width: 130%;
             margin-top:40px;
         }
         input{
             border-radius: 7px;
             padding: 2px;
+            width:110%;
+            border-color: rgb(231, 216, 216);
         }
+        
         .inputlog{
             background-color: blue;
             color: white;
+            margin-top: 10px;
+            width:110%;
+            border-width: 0px;
+        }
+        .sitelogin{
+            border:1px solid rgb(231, 216, 216);
+            width:110%;
+            height:32px;
+            border-radius: 5px;
+            text-align:center;
+            display:flex;
+           margin-top: 5px;
+        }
+        .sitelogin:hover{
+            background-color: rgb(230, 217, 217);
+        }
+        .siteloginpic{
+            height:70%;
+            padding-left: 80px;
+            padding-top: 5px;
+        }
+        .sitelogin>div{
+            height:80%;
+            weight:60%;
+           
+            margin:auto;
+        }
+        .sitelogin>div>p{
+           margin-top: 0px;
+           font-size: 18px;
+        }
+        #logsign{
+            
+            height:15px;
+            width:20%
+            
+        }
+        #last{
+            display: flex;
+            justify-content:space-between;
+            padding-left: 10px;
+            color: blue;
+        }
+        .line:hover{
+            border-color: rgb(161, 161, 228);
+            border-width: 2px;
         }
     </style>
 </head>
@@ -61,22 +114,42 @@
            
            
             
-                <h4>Email</h4>
+                <h4 style="color:darkgray">Email</h4>
                 
-                <input id="email" type="text" placeholder="joinsmith@mail.com"/>
-                <h4>Password</h4>
-                <input id="pass"  type="password" placeholder="Enter Your Password"/>
+                <input id="email" class="line" type="text" placeholder="joinsmith@mail.com"/>
+                <h4 style="color:darkgray">Password</h4>
+                <input id="pass" class="line" type="password" placeholder="Enter Your Password"/>
            
                 
                 
                 <input class="inputlog" type="submit" value="Login"/>
-                <h3>---------------------Or-----------------------</h3>
-                <input class="" type="text" placeholder="Sign in" onclick="window.location.href='login.html'"/>
+                <h3>----------------Or--------------------</h3>
+
+                <div class="sitelogin"> 
+                    <img class="siteloginpic" src="https://id.tmetric.com/images/google_logo.svg" alt=""> 
+                    <div onclick="window.location.href='https://www.facebook.com/suman.garai.9699'""> <p>Login with Google</p> </div>
+                </div>
+                <div class="sitelogin"> 
+                    <img class="siteloginpic" src="https://id.tmetric.com/images/microsoft_logo.svg" alt=""> 
+                    <div onclick="window.location.href='https://youtube.com/c/SSirScienceTeacher'""> <p>Login with Microsoft</p> </div>
+                </div>
+                <div class="sitelogin"> 
+                    <img class="siteloginpic" src="https://id.tmetric.com/images/apple_logo.svg" alt=""> 
+                    <div onclick="window.location.href='https://www.linkedin.com/in/suman-garai-353860204'""> <p>Login with Apple</p> </div>
+                </div>
+                
             </form>
 
         </div>
+        <hr>
+        <div id="last">
+            <div id="logsign"><h4 style=" margin-top: 0px;"onclick="window.location.href='signup.html'"" >Can't login?</h6></div>
+                <div id="logsign"><h4 style=" margin-top: 0px;"onclick="window.location.href='signup.html'"" >Sign Up</h6></div>   
+        </div>
+        
         
     </div>
+    <p style="text-align:center;color:blue">Privacy Policy </p>
     
 </body>
 </html>
@@ -88,18 +161,28 @@
         event.preventDefault();
         var email=document.querySelector("#email").value;
         var pass=document.querySelector("#pass").value;
+        let x=some( email,pass)
+        if(x==true){
+            alert("user sign in successful")
+            window.location.href="index.html"
+        }
+        else{
+            alert("incorect user name & password")
+        }
         
-        
+      
+    }
+    function some(email,pass){
         for(var i=0; i<regdUsers.length;i++) {
             console.log(regdUsers[i].passwd);
             if(regdUsers[i].emailAdd == email && regdUsers[i].passwd ==pass){
-                window.location.href="home.html";
+                return true;
+
             } 
-            else{
-                alert("username & password error ");
-            }
+           
            
            
         }
+        return false;
     }
 </script>
