@@ -8,20 +8,20 @@
     </title>
     <style>
         #main{
-            border: 1px solid red;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             height: 650px;
             width: 80%;
             margin:auto;
             display: flex;
         }
         #sign{
-            border: 1px solid rgb(85, 67, 67);
+           
             height: 100%;
             width: 50%;
         
         }
         #pic{
-            border: 1px solid rgb(85, 67, 67);
+          
             height: 100%;
             width: 50%;
         
@@ -40,16 +40,20 @@
             border-radius: 10px;
             padding: 7px;
             width: 75%;
+            border-width:0.5px;
+            border-color: rgb(214, 210, 210);
         }
         .inputlog{
             background-color: blue;
             color: white;
+            width:80%
         }
         h1{
             text-align: center;
         }
         #logo{
             margin-left: 30%;
+            margin-top: 20px;
         }
         #banner{
             background-color: #f2f5fc;
@@ -58,6 +62,7 @@
         }
         h4{
            margin-bottom: 1px;
+           color: rgb(158, 152, 152);
         }
         #checkbox{
             width:15%
@@ -80,15 +85,31 @@
             margin-left:20%
         }
         .sitelogin{
-            border:1px solid black;
-            width:70%;
+            border:1px solid rgb(197, 195, 195);
+            width:80%;
             height:32px;
             border-radius: 5px;
             text-align:center;
             display:flex;
+           margin-top: 5px;
+        }
+        .sitelogin:hover{
+            background-color: rgb(228, 220, 220);
         }
         .siteloginpic{
-            height:70%
+            height:70%;
+            padding-left: 80px;
+            padding-top: 5px;
+        }
+        .sitelogin>div{
+            height:80%;
+            weight:60%;
+           
+            margin:auto;
+        }
+        .sitelogin>div>p{
+           margin-top: 0px;
+           font-size: 18px;
         }
     </style>
 </head>
@@ -115,12 +136,17 @@
                 <h3>---------------------Or-----------------------</h3>
                 <div class="sitelogin"> 
                     <img class="siteloginpic" src="https://id.tmetric.com/images/google_logo.svg" alt=""> 
-                    <div></div>
-                    <h3>Signup with Google</h5>
+                    <div onclick="window.location.href='https://www.facebook.com/suman.garai.9699'""> <p>Login with Google</p> </div>
                 </div>
-                <input class="last" type="text" placeholder="Signup with facebook" onclick="window.location.href='login.html'"/>
-                <input class="last" type="text" placeholder="Signup with Google" onclick="window.location.href='login.html'"/>
-                <input class="last" type="text" placeholder="Signup with Apple" onclick="window.location.href='login.html'"/>
+                <div class="sitelogin"> 
+                    <img class="siteloginpic" src="https://id.tmetric.com/images/microsoft_logo.svg" alt=""> 
+                    <div onclick="window.location.href='https://youtube.com/c/SSirScienceTeacher'""> <p>Login with Microsoft</p> </div>
+                </div>
+                <div class="sitelogin"> 
+                    <img class="siteloginpic" src="https://id.tmetric.com/images/apple_logo.svg" alt=""> 
+                    <div onclick="window.location.href='https://www.linkedin.com/in/suman-garai-353860204'""> <p>Login with Apple</p> </div>
+                </div>
+               
 
                 <p id="lastline">Already have an account? <span onclick="window.location.href='login.html'">login </span></p>
             
