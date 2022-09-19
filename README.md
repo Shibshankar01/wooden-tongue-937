@@ -12,6 +12,12 @@ This project is a clone of the TMetrics website, used to control your time, impr
 - Support Page
 - Blog Page
 
+## Tech-Stack
+- HTML
+- CSS
+- JavaScript
+
+(No External libraries used)
 
 ## Team Members
 - Alok Kumar        - fw19_0529
