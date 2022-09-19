@@ -24,10 +24,10 @@ This project is a clone of the TMetrics website, used to control your time, impr
 https://amazing-daffodil-72806d.netlify.app/solutions.html
 
 ## Team Members
-- [Alok Kumar]()        - fw19_0529
-- [Barsa Ojha]()        - fw18_0452
-- [Shibshankar Padhy]() - fw19_0520
-- [Suman Garai]()       - fw19_0924
-- [Vaibhav Kaware]()    - fw18_0667
+- [Alok Kumar](https://github.com/alokkr11)        - fw19_0529
+- [Barsa Ojha](https://github.com/bArSu45)        - fw18_0452
+- [Shibshankar Padhy](https://github.com/Shibshankar01) - fw19_0520
+- [Suman Garai](https://github.com/Sumanplusco)       - fw19_0924
+- [Vaibhav Kaware](https://github.com/vkaware)    - fw18_0667
  
 #### Manager -Suraj Kumar
