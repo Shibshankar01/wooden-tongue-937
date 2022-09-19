@@ -1,6 +1,10 @@
 ## [TMetrics Clone](https://amazing-daffodil-72806d.netlify.app/solutions.html)
 This project is a clone of the TMetrics website, used to control your time, improve your productivity and monitor your team performace.
 
+   ![Logo](https://img.shields.io/github/last-commit/Shibshankar01/wooden-tongue-937)
+   ![Logo](https://img.shields.io/github/languages/code-size/Shibshankar01/wooden-tongue-937)
+   ![Logo](https://img.shields.io/github/contributors/Shibshankar01/wooden-tongue-937)
+
 ## Features
 - Login and Signup
 - Navbar
