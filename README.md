@@ -5,7 +5,7 @@ This project is a clone of the TMetrics website, used to control your time, impr
    ![Logo](https://img.shields.io/github/languages/code-size/Shibshankar01/wooden-tongue-937)
    ![Logo](https://img.shields.io/github/contributors/Shibshankar01/wooden-tongue-937)
 
-## Features
+## Features ✨
 - Login and Signup
 - Navbar
 - Home Page
@@ -16,7 +16,7 @@ This project is a clone of the TMetrics website, used to control your time, impr
 - Support Page
 - Blog Page
 
-## Tech-Stack
+## Tech-Stack 💻
 - HTML
 - CSS
 - JavaScript
@@ -27,7 +27,7 @@ This project is a clone of the TMetrics website, used to control your time, impr
 
 https://amazing-daffodil-72806d.netlify.app/solutions.html
 
-## Team Members
+## Team Members 👨‍👦‍👦
 - [Alok Kumar](https://github.com/alokkr11)        - fw19_0529
 - [Barsa Ojha](https://github.com/bArSu45)        - fw18_0452
 - [Shibshankar Padhy](https://github.com/Shibshankar01) - fw19_0520
